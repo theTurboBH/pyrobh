@@ -1,0 +1,30 @@
+<!-- docs/_sidebar.md -->
+
+- **Home**
+    - [Introduction](/#pyromod)
+    - [Key features](/#key-features)
+- **Get Started**
+    - [Installation](/get-started/installation.md)
+    - [Initializing pyrobh](/get-started/initialization.md)
+    - [Configuration](/get-started/configuration.md)
+    - [Examples](/get-started/examples.md)
+- **API Reference**
+    - [pyrobh](/pyrobh/index)
+        - [pyrobh.config](/pyrobh/config/index)
+        - pyrobh.listen
+            - [Client](/pyrobh/listen/client)
+            - [Message](/pyrobh/listen/message)
+            - [User](/pyrobh/listen/user)
+            - [Chat](/pyrobh/listen/chat)
+        - pyrobh.exceptions
+            - [ListenerTimeout](/pyrobh/exceptions/listener-timeout)
+            - [ListenerStopped](/pyrobh/exceptions/listener-stopped)
+        - [pyrobh.helpers](/pyrobh/helpers/index)
+        - pyrobh.types
+            - [Identifier](/pyrobh/types/identifier)
+            - [ListenerTypes](/pyrobh/types/listener-types)
+            - [Listener](/pyrobh/types/listener)
+        - pyrobh.utils
+            - [pyrobh.utils.patch](/pyrobh/utils/patch)
+        - pyrobh.nav
+            - [Pagination](/pyrobh/nav/pagination)
